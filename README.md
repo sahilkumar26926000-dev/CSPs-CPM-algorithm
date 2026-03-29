@@ -1,4 +1,24 @@
-# smart-calendar
+# Project Overview
+Two algorithm is implemented to completion of the project.
+
+CSPs(constraint satisfaction problem) are consider a fundamental topic in Aritfical Intelligent(AI) and are essential for solving search, scheduling, planning and resource allocation problems.
+
+CPM(Critical Path Method) Identifies the longest sequence of dependent tasks to determine the shortest possible project duration, allowing for task prioritization and float management.
+
+# Technologies Used
+
+Python
+
+deque (Queue)
+
+# How to Run
+
+Install Python
+
+Run the program: python main.py
+
+# (algorithm used CSPs and CPM method)
+
 Start
 
 Step-1 Data structure initalization
@@ -106,4 +126,12 @@ while True:
     
     elif choice == '4':
         print("Closing Calendar...")
-        break
+    break
+
+
+# Conclusion
+
+This algorithm model problem by defining variables, domains and constraint which are then solved using search techniques like backtracking, rather than
+
+traditional machine learning.
+        
